@@ -1,0 +1,57 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.App {
+  text-align: center;
+}
+
+.select-categories{
+  width: 400px;
+}
+
+.star{
+  margin-top: -18px;
+}
+
+.navbar{
+  background-color: #bdc3c7;  /* fallback for old browsers */;
+  background-color: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+  
+}
+
+#navbar-brand{
+  color: white;
+  margin-top: 10px
+}
+
+#logo{
+  margin-left: 20px;
+  padding: 10px;
+}
+
+#logo:hover{
+  cursor:pointer;
+}
+
+.card-category{
+  width: 200px;
+  margin-top: 50px;
+}
+
+#previous{
+  text-decoration: none;
+  color: #000;
+}
+
+.image-cart{
+  object-fit: cover;
+}
+
+.delete-product:hover{
+  cursor: pointer;
+  color: red;
+}
+
+.text-paypage{
+  font-size: 12px;
+}
